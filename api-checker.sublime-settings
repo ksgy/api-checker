@@ -1,0 +1,29 @@
+{
+	"debug": false,
+	"timeout": 30,
+	"up_label": "✓",
+	"dn_label": "✕",
+	"detailed_error": true,
+	"urls": [
+		{
+			"title": "google",
+			"request_type": "GET",
+			"request_body": [
+			],
+			"url": "http://google.com",
+		},
+		{
+			"title": "non-existent",
+			"request_type": "POST",
+			"request_body": [
+				"Access-Control-Request-Headers: accept",
+				"Access-Control-Allow-Origin: *",
+				"Content-type: application/x-www-form-urlencoded",
+
+				"POST_BODY:",
+				"api_key=test_key&getuser=john"
+			],
+			"url": "http://some.non-existent.url",
+		}
+	]
+}

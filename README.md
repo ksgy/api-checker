@@ -3,6 +3,8 @@ API Checker plugin for Sublime Text
 
 A plugin to check if an API or a site is up and running. You can make HTTP calls similar as in [SublimeHttpRequester](https://github.com/braindamageinc/SublimeHttpRequester)
 
+Inspiration came from [sublimetext-LondonUnderground](https://github.com/sabarasaba/sublimetext-LondonUnderground) :)
+
 Example configuration: (api-checker.sublime-settings)
 
 	{
@@ -72,11 +74,15 @@ Avaliable options
 
 	-  __request_body__
 
-		Request headers, POST_BODY. See [SublimeHttpRequester](https://github.com/braindamageinc/SublimeHttpRequester) for more information
+		Request headers, POST_BODY.
+
+		See [SublimeHttpRequester](https://github.com/braindamageinc/SublimeHttpRequester) for more information
 
 	-  __url__
 
 		URL to request
+
+
 
 
 License
