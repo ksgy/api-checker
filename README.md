@@ -5,6 +5,8 @@ A plugin to check if an API or a site is up and running. You can make HTTP calls
 
 Inspiration came from [sublimetext-LondonUnderground](https://github.com/sabarasaba/sublimetext-LondonUnderground) :)
 
+![API Checker](http://i.imgur.com/OsW35op.png)
+
 Example configuration: (api-checker.sublime-settings)
 
 	{
